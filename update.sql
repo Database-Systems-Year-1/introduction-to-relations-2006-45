@@ -1,0 +1,2 @@
+UPDATE person
+SET phone='0756324098'

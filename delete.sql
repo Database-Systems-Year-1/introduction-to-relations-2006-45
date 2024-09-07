@@ -1,0 +1,2 @@
+DELETE FROM ARTICLE
+WHERE title='priest';

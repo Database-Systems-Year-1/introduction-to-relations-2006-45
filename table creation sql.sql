@@ -1,0 +1,19 @@
+CREATE TABLE Person (
+personID INT PRIMARY KEY,
+Personname VARCHAR(255),
+phone VARCHAR(255)
+);
+
+CREATE TABLE Age (
+ageID INT PRIMARY KEY,
+personID INT,
+birthyear DATE,
+FOREIGN KEY(personID)REFERENCES
+Person(personID)
+);
+
+CREATE TABLE ARTICLE (
+ArticleID INT PRIMARY KEY,
+TITLE VARCHAR(255),
+PublishedAt DATE 
+);

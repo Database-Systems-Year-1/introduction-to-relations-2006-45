@@ -1,0 +1,2 @@
+ALTER TABLE article
+ALTER COLUMN articleid TYPE VARCHAR(4)
